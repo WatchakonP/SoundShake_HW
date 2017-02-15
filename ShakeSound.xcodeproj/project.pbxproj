@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95981F151E549D1E00EBD007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95981F141E549D1E00EBD007 /* AppDelegate.swift */; };
+		95981F171E549D1E00EBD007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95981F161E549D1E00EBD007 /* ViewController.swift */; };
+		95981F1A1E549D1E00EBD007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95981F181E549D1E00EBD007 /* Main.storyboard */; };
+		95981F1C1E549D1E00EBD007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95981F1B1E549D1E00EBD007 /* Assets.xcassets */; };
+		95981F1F1E549D1E00EBD007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95981F1D1E549D1E00EBD007 /* LaunchScreen.storyboard */; };
+		95981F2A1E549D1F00EBD007 /* ShakeSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95981F291E549D1F00EBD007 /* ShakeSoundTests.swift */; };
+		95981F351E549D1F00EBD007 /* ShakeSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95981F341E549D1F00EBD007 /* ShakeSoundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95981F261E549D1E00EBD007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95981F091E549D1D00EBD007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95981F101E549D1D00EBD007;
+			remoteInfo = ShakeSound;
+		};
+		95981F311E549D1F00EBD007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95981F091E549D1D00EBD007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95981F101E549D1D00EBD007;
+			remoteInfo = ShakeSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95981F111E549D1E00EBD007 /* ShakeSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95981F141E549D1E00EBD007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95981F161E549D1E00EBD007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95981F191E549D1E00EBD007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95981F1B1E549D1E00EBD007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95981F1E1E549D1E00EBD007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95981F201E549D1E00EBD007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95981F251E549D1E00EBD007 /* ShakeSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95981F291E549D1F00EBD007 /* ShakeSoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeSoundTests.swift; sourceTree = "<group>"; };
+		95981F2B1E549D1F00EBD007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95981F301E549D1F00EBD007 /* ShakeSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95981F341E549D1F00EBD007 /* ShakeSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeSoundUITests.swift; sourceTree = "<group>"; };
+		95981F361E549D1F00EBD007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95981F0E1E549D1D00EBD007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F221E549D1E00EBD007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F2D1E549D1F00EBD007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95981F081E549D1D00EBD007 = {
+			isa = PBXGroup;
+			children = (
+				95981F131E549D1E00EBD007 /* ShakeSound */,
+				95981F281E549D1F00EBD007 /* ShakeSoundTests */,
+				95981F331E549D1F00EBD007 /* ShakeSoundUITests */,
+				95981F121E549D1E00EBD007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95981F121E549D1E00EBD007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95981F111E549D1E00EBD007 /* ShakeSound.app */,
+				95981F251E549D1E00EBD007 /* ShakeSoundTests.xctest */,
+				95981F301E549D1F00EBD007 /* ShakeSoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95981F131E549D1E00EBD007 /* ShakeSound */ = {
+			isa = PBXGroup;
+			children = (
+				95981F141E549D1E00EBD007 /* AppDelegate.swift */,
+				95981F161E549D1E00EBD007 /* ViewController.swift */,
+				95981F181E549D1E00EBD007 /* Main.storyboard */,
+				95981F1B1E549D1E00EBD007 /* Assets.xcassets */,
+				95981F1D1E549D1E00EBD007 /* LaunchScreen.storyboard */,
+				95981F201E549D1E00EBD007 /* Info.plist */,
+			);
+			path = ShakeSound;
+			sourceTree = "<group>";
+		};
+		95981F281E549D1F00EBD007 /* ShakeSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				95981F291E549D1F00EBD007 /* ShakeSoundTests.swift */,
+				95981F2B1E549D1F00EBD007 /* Info.plist */,
+			);
+			path = ShakeSoundTests;
+			sourceTree = "<group>";
+		};
+		95981F331E549D1F00EBD007 /* ShakeSoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95981F341E549D1F00EBD007 /* ShakeSoundUITests.swift */,
+				95981F361E549D1F00EBD007 /* Info.plist */,
+			);
+			path = ShakeSoundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95981F101E549D1D00EBD007 /* ShakeSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95981F391E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSound" */;
+			buildPhases = (
+				95981F0D1E549D1D00EBD007 /* Sources */,
+				95981F0E1E549D1D00EBD007 /* Frameworks */,
+				95981F0F1E549D1D00EBD007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeSound;
+			productName = ShakeSound;
+			productReference = 95981F111E549D1E00EBD007 /* ShakeSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95981F241E549D1E00EBD007 /* ShakeSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95981F3C1E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSoundTests" */;
+			buildPhases = (
+				95981F211E549D1E00EBD007 /* Sources */,
+				95981F221E549D1E00EBD007 /* Frameworks */,
+				95981F231E549D1E00EBD007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95981F271E549D1E00EBD007 /* PBXTargetDependency */,
+			);
+			name = ShakeSoundTests;
+			productName = ShakeSoundTests;
+			productReference = 95981F251E549D1E00EBD007 /* ShakeSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95981F2F1E549D1F00EBD007 /* ShakeSoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95981F3F1E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSoundUITests" */;
+			buildPhases = (
+				95981F2C1E549D1F00EBD007 /* Sources */,
+				95981F2D1E549D1F00EBD007 /* Frameworks */,
+				95981F2E1E549D1F00EBD007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95981F321E549D1F00EBD007 /* PBXTargetDependency */,
+			);
+			name = ShakeSoundUITests;
+			productName = ShakeSoundUITests;
+			productReference = 95981F301E549D1F00EBD007 /* ShakeSoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95981F091E549D1D00EBD007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Indie Co.";
+				TargetAttributes = {
+					95981F101E549D1D00EBD007 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					95981F241E549D1E00EBD007 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95981F101E549D1D00EBD007;
+					};
+					95981F2F1E549D1F00EBD007 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95981F101E549D1D00EBD007;
+					};
+				};
+			};
+			buildConfigurationList = 95981F0C1E549D1D00EBD007 /* Build configuration list for PBXProject "ShakeSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95981F081E549D1D00EBD007;
+			productRefGroup = 95981F121E549D1E00EBD007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95981F101E549D1D00EBD007 /* ShakeSound */,
+				95981F241E549D1E00EBD007 /* ShakeSoundTests */,
+				95981F2F1E549D1F00EBD007 /* ShakeSoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95981F0F1E549D1D00EBD007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95981F1F1E549D1E00EBD007 /* LaunchScreen.storyboard in Resources */,
+				95981F1C1E549D1E00EBD007 /* Assets.xcassets in Resources */,
+				95981F1A1E549D1E00EBD007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F231E549D1E00EBD007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F2E1E549D1F00EBD007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95981F0D1E549D1D00EBD007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95981F171E549D1E00EBD007 /* ViewController.swift in Sources */,
+				95981F151E549D1E00EBD007 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F211E549D1E00EBD007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95981F2A1E549D1F00EBD007 /* ShakeSoundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95981F2C1E549D1F00EBD007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95981F351E549D1F00EBD007 /* ShakeSoundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95981F271E549D1E00EBD007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95981F101E549D1D00EBD007 /* ShakeSound */;
+			targetProxy = 95981F261E549D1E00EBD007 /* PBXContainerItemProxy */;
+		};
+		95981F321E549D1F00EBD007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95981F101E549D1D00EBD007 /* ShakeSound */;
+			targetProxy = 95981F311E549D1F00EBD007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95981F181E549D1E00EBD007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95981F191E549D1E00EBD007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95981F1D1E549D1E00EBD007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95981F1E1E549D1E00EBD007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95981F371E549D1F00EBD007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95981F381E549D1F00EBD007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95981F3A1E549D1F00EBD007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95981F3B1E549D1F00EBD007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		95981F3D1E549D1F00EBD007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeSound.app/ShakeSound";
+			};
+			name = Debug;
+		};
+		95981F3E1E549D1F00EBD007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeSound.app/ShakeSound";
+			};
+			name = Release;
+		};
+		95981F401E549D1F00EBD007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShakeSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShakeSound;
+			};
+			name = Debug;
+		};
+		95981F411E549D1F00EBD007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShakeSoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Indie.ShakeSoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShakeSound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95981F0C1E549D1D00EBD007 /* Build configuration list for PBXProject "ShakeSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95981F371E549D1F00EBD007 /* Debug */,
+				95981F381E549D1F00EBD007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95981F391E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95981F3A1E549D1F00EBD007 /* Debug */,
+				95981F3B1E549D1F00EBD007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95981F3C1E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95981F3D1E549D1F00EBD007 /* Debug */,
+				95981F3E1E549D1F00EBD007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95981F3F1E549D1F00EBD007 /* Build configuration list for PBXNativeTarget "ShakeSoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95981F401E549D1F00EBD007 /* Debug */,
+				95981F411E549D1F00EBD007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95981F091E549D1D00EBD007 /* Project object */;
+}
